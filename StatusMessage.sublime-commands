@@ -1,0 +1,11 @@
+[
+  {
+    "caption": "StatusMessage: Show scope name",
+    "command": "show_scope_name_enhanced"
+  },
+
+  {
+    "caption": "StatusMessage: Toggle default status",
+    "command": "toggle_default_status"
+  }
+]

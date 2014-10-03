@@ -1,0 +1,11 @@
+[
+  {
+    "keys": ["ctrl+u", "ctrl+\\"],
+    "command": "show_scope_name_enhanced"
+  },
+
+  {
+    "keys": ["ctrl+u", "ctrl+y"],
+    "command": "toggle_default_status"
+  }
+]
