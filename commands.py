@@ -1,5 +1,6 @@
 import sublime
 import sublime_plugin
+
 from StatusMessage import status_message
 
 class ShowScopeNameEnhanced(sublime_plugin.TextCommand):

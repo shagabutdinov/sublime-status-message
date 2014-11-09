@@ -1,5 +1,6 @@
 import sublime
 import sublime_plugin
+
 from StatusMessage import status_message
 
 class DefaultStatus(sublime_plugin.EventListener):

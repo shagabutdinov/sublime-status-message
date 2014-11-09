@@ -1,11 +1,17 @@
 [
   {
     "keys": ["ctrl+u", "ctrl+\\"],
-    "command": "show_scope_name_enhanced"
+    "command": "show_scope_name_enhanced",
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
     "keys": ["ctrl+u", "ctrl+y"],
-    "command": "toggle_default_status"
-  }
+    "command": "toggle_default_status",
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
+  },
 ]

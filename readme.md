@@ -22,9 +22,9 @@ default status messages. In order to see all status messages you should use
 keyboard hotkey.
 
 Some icons used in status bar (e.g. battery "🔋", search "🔎" or star "✱") will
-result text padding so lowest pixel row of text (including underscores "_") will
-not be visible. It is really annoying bug and if you have an workaround please
-tell me it.
+result to strange text padding: lowest pixel row of text (including
+underscores "_") will not be visible. It is really annoying bug and if you have
+an workaround please tell me it.
 
 
 ### Installation
@@ -50,6 +50,11 @@ to make nice status bar output.
 |-----------------------|-------------------|---------------------------------------|
 | Show scope name       | ctrl+u, ctrl+\    | StatusMessage: Show scope name        |
 | Toggle default status | ctrl+u, ctrl+y    | StatusMessage: Toggle default status  |
+
+
+### Dependencies
+
+None
 
 
 ### API
